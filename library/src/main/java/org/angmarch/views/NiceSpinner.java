@@ -155,9 +155,9 @@ public class NiceSpinner extends AppCompatTextView {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // The selected item is not displayed within the list, so when the selected position is equal to
                 // the one of the currently selected item it gets shifted to the next item.
-                if (position >= selectedIndex && position < adapter.getCount()) {
-                    position++;
-                }
+//                if (position >= selectedIndex && position < adapter.getCount()) {
+//                    position++;
+//                }
                 selectedIndex = position;
 
                 if (onSpinnerItemSelectedListener != null) {
